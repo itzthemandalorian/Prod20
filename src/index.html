@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The 20-20-20 rule</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main">
+        <!--  actions container(where users can select their actions) -->
+        <div class="actions">
+          <div class="time-container">04:20</div>
+          <div class="welcome-title">Hi Jhon Doe</div>
+          <div class="welcome-text">Welcome back, We missed You!</div>
+
+          <!--  User Interaction -->
+          <div class="actions-buttons-container">
+            <div class="twenty">
+              <div><button class="twenty-btn btn">Twenty Rule</button></div>
+            </div>
+            <div class="sedimentary">
+              <div>
+                <button class="sedimentary-btn btn">Sedimentaarry</button>
+              </div>
+            </div>
+            <div class="pomodoro">
+              <div>
+                <button class="pomodoro-btn btn">Pomodoro Timer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- twenty popup -->
+        <div class="twenty-popup">
+          <div class="twenty-popup-container">
+            <img
+              src="../assets/icons/cancel_black_24dp.svg"
+              alt="close popup"
+              class="twenty-close-popup"
+            />
+            <input
+              type="number"
+              name="twenty-input"
+              id="twenty-input"
+              placeholder="Custom Time in Minutes"
+            />
+            <button class="twenty-start-btn">Start</button>
+          </div>
+        </div>
+        <!--  sedimentary popup -->
+        <div class="sedimentary-popup">
+          <div class="sedimentary-popup-container">
+            <img
+              src="../assets/icons/cancel_black_24dp.svg"
+              alt="close popup"
+              class="sedimentary-close-popup"
+            />
+            <input
+              type="number"
+              name="sedimentary-input"
+              id="sedimentary-input"
+              placeholder="Custom Time in Minutes"
+            />
+            <button class="sedimentary-start-btn">Start</button>
+          </div>
+        </div>
+        <!-- pomodoro popup -->
+        <div class="pomodoro-popup">
+          <div class="pomodoro-popup-container">
+            <input
+              type="number"
+              class="session-length"
+              placeholder="Custom Time in Minutes"
+            />
+            <div class="pomodoro-break-line"></div>
+            <input
+              type="number"
+              class="break-length"
+              placeholder="Custom Time in Minutes"
+            />
+            <div class="pomodoro-break-line"></div>
+            <button class="pomodoro-start-timer">Start</button>
+            <img
+              src="../assets/icons/cancel_black_24dp.svg"
+              alt="close popup"
+              class="pomodoro-close-popup"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "20-20-20",
+  "version": "1.0.0",
+  "description": "WIP",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzthemandalorian/20-20-20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itzthemandalorian/20-20-20/issues"
+  },
+  "homepage": "https://github.com/itzthemandalorian/20-20-20#readme",
+  "devDependencies": {
+    "electron": "^13.1.2"
+  }
+}
