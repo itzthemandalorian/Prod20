@@ -426,6 +426,7 @@ twenty break pop up starts here */
 }
 
 .settings-container {
+  display: none;
   background: rgba(153, 181, 214, 0.384);
   position: absolute;
   height: 100vh;

@@ -39,3 +39,11 @@ const flogin = document.querySelector(".login-page-ui");
 const usernametag = document.querySelector(".welcome-title");
 
 const firebase_logout_btn = document.querySelector(".firebase-logout-button");
+
+const settings_container = document.querySelector(".settings-container");
+const settings_close_btn = document.querySelector(".settings-close");
+const settings_input_btn = document.querySelector(".settings-input-btn");
+
+const changeStyle=document.querySelector('#cssFile')
+const twenty_theme_img=document.querySelector('.twenty-theme-img')
+const surfup_theme_img=document.querySelector('.surfup-theme-img')

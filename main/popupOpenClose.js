@@ -29,3 +29,11 @@ pomodoro_button.addEventListener("click", (e) => {
 pomodoro_close_popup.addEventListener("click", (e) => {
   e.stopPropagation(), (pomodoro_popup.style.display = "none");
 });
+
+settings_input_btn.addEventListener("click", (e) => {
+  e.stopPropagation(), (settings_container.style.display = "block");
+});
+
+settings_close_btn.addEventListener("click", (e) => {
+  e.stopPropagation(), (settings_container.style.display = "none");
+});
