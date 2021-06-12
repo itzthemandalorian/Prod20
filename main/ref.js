@@ -44,6 +44,10 @@ const settings_container = document.querySelector(".settings-container");
 const settings_close_btn = document.querySelector(".settings-close");
 const settings_input_btn = document.querySelector(".settings-input-btn");
 
-const changeStyle=document.querySelector('#cssFile')
-const twenty_theme_img=document.querySelector('.twenty-theme-img')
-const surfup_theme_img=document.querySelector('.surfup-theme-img')
+const changeStyle = document.querySelector("#cssFile");
+const twenty_theme_img = document.querySelector(".twenty-theme-img");
+const surfup_theme_img = document.querySelector(".surfup-theme-img");
+
+const wake_up_time = document.querySelector("#wake-up");
+const sleep_time = document.querySelector("#sleep");
+

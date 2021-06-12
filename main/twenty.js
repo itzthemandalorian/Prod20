@@ -1,44 +1,57 @@
 twenty_start_btn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    twenty_popup.style.display = "none";
-    //assigning proper time depending on user input
-    let twenty_time;
-    if (twenty_input.value) {
-      twenty_time = parseInt(twenty_input.value);
+  e.stopPropagation();
+  twenty_popup.style.display = "none";
+  //assigning proper time depending on user input
+  let twenty_time;
+  if (twenty_input.value) {
+    twenty_time = parseInt(twenty_input.value);
+  } else {
+    twenty_time = 20;
+  }
+  /* console.log(twenty_time) */
+  const total_seconds = twenty_time * 60;
+  let total_count = 0;
+  let t_seconds_count = 0;
+
+  //disabling the button so it will prevent users from starting multiple sessions
+  twenty_button.disabled = true;
+  let timer = setInterval(() => {
+
+    if (localStorage.getItem("twe_stop") == "true") {
+      localStorage.setItem("twe_stop", "false");
+      twenty_button.disabled = false;
+      clearInterval(timer);
     } else {
-      twenty_time = 20;
+      console.log("#Surfup #MLH");
     }
-    /* console.log(twenty_time) */
-    const total_seconds = twenty_time * 60;
-    let total_count = 0;
-    let t_seconds_count = 0;
-  
-    //disabling the button so it will prevent users from starting multiple sessions
-    twenty_button.disabled = true;
-    let timer = setInterval(() => {
+    {
+      const date = new Date();
+      const hrs = date.getHours();
 
-      if (localStorage.getItem("twe_stop") == "true") {
-        localStorage.setItem("twe_stop", "false");
-        twenty_button.disabled = false;
-        clearInterval(timer);
-      } else {
-        console.log("#Surfup #MLH");
-      }
+      const wuphours = parseInt(localStorage.getItem("wake_up"));
+      const slphours = parseInt(localStorage.getItem("sleep_time"));
 
-      console.log("working");
-      if (total_count >= total_seconds) {
-        const percentage = (t_seconds_count / 20) * 100;
-        twenty_progressbar.style.width = `${percentage}%`;
-        if (t_seconds_count >= 21) {
-          total_count = 0;
-          t_seconds_count = 0;
-          break_popup_twenty.style.display = "none";
+      if (hrs >= wuphours && hrs <= slphours) {
+       
+
+        console.log("working");
+        if (total_count >= total_seconds) {
+          const percentage = (t_seconds_count / 20) * 100;
+          twenty_progressbar.style.width = `${percentage}%`;
+          if (t_seconds_count >= 21) {
+            total_count = 0;
+            t_seconds_count = 0;
+            break_popup_twenty.style.display = "none";
+          } else {
+            t_seconds_count++;
+            break_popup_twenty.style.display = "block";
+          }
         } else {
-          t_seconds_count++;
-          break_popup_twenty.style.display = "block";
+          total_count++;
         }
       } else {
-        total_count++;
+        console.log("beyond the range of active hours");
       }
-    }, 1000);
-  });
+    }
+  }, 1000);
+});
