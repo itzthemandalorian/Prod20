@@ -158,14 +158,37 @@
         <!-- login page goes here -->
         <div class="exit-settings-container">
           <img
-          class="firebase-logout-button"
-          src="../assets/icons/logout_white_24dp.svg"
-          alt=""
-        />
-        <img class="settings-input-btn" src="../assets/icons/tune_white_24dp.svg" alt="">
+            class="firebase-logout-button"
+            src="../assets/icons/logout_white_24dp.svg"
+            alt=""
+          />
+          <img
+            class="settings-input-btn"
+            src="../assets/icons/tune_white_24dp.svg"
+            alt=""
+          />
         </div>
-        
 
+        <div class="settings-container">
+          <div class="settings-theme-title">Select your style</div>
+          <div style="display: flex; margin-top: 5vmin">
+            <img class="twenty-theme-img" src="../assets/bg.jpg" alt="" />
+            <img class="surfup-theme-img" src="../assets/beach.jpg" alt="" />
+          </div>
+          <div class="active-hours-title">Choose your active Hours</div>
+          <label class="wake-up-title" for="wake-up"
+            >What time do you Arise?</label
+          >
+          <input type="time" name="wake-up" id="wake-up" />
+          <div class="just-another-space"></div>
+          <label class="sleep-title" for="sleep">What time do you Sleep?</label>
+          <input type="time" name="sleep" id="sleep" />
+          <img
+            class="settings-close"
+            src="../assets/icons/cancel_black_24dp.svg"
+            alt=""
+          />
+        </div>
         <div class="login-page-ui">
           <div id="firebaseui-auth-container"></div>
         </div>

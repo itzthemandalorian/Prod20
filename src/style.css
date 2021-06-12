@@ -32,18 +32,18 @@
   text-align: center;
 }
 .time-container {
-  color: rgba(110, 109, 109, 0.904);
-  font-size: 8vmin;
+  color: rgba(51, 50, 50, 0.904);
+  font-size: 9vmin;
   margin-top: 20vmin;
 }
 .welcome-title {
-  font-size: 5vmin;
-  color: rgba(185, 185, 185, 0.904);
+  font-size: 6vmin;
+  color: rgba(51, 50, 50, 0.904);
   margin-bottom: 1vmin;
 }
 .welcome-text {
-  font-size: 3vmin;
-  color: rgba(185, 185, 185, 0.904);
+  font-size: 5vmin;
+  color: rgba(51, 50, 50, 0.904);
 }
 .actions-buttons-container {
   display: flex;
@@ -58,10 +58,10 @@
   font-weight: 700;
   font-size: 22px;
   margin: 1vmin;
-  background-color: #6da1dd25;
+  background-color: #071f3a54;
   backdrop-filter: blur(14px);
   border-radius: 6px;
-  color: #e8e8e9ef;
+  color: #272727ef;
 }
 .sedimentary-btn {
   outline: none;
@@ -71,10 +71,10 @@
   font-weight: 700;
   font-size: 22px;
   margin: 1vmin;
-  background-color: #6da1dd25;
+  background-color: #071f3a54;
   backdrop-filter: blur(14px);
   border-radius: 6px;
-  color: #e8e8e9ef;
+  color: #272727ef;
 }
 .pomodoro-btn {
   outline: none;
@@ -84,10 +84,10 @@
   font-weight: 700;
   font-size: 22px;
   margin: 1vmin;
-  background-color: #6da1dd25;
-  backdrop-filter: blur(8px);
+  background-color: #071f3a54;
+  border-radius: 6px;
   backdrop-filter: blur(14px);
-  color: #e8e8e9ef;
+  color: #272727ef;
 }
 .stop-btn-style {
   margin-top: 15px;
@@ -394,10 +394,10 @@ twenty break pop up starts here */
   margin-top: 5px;
   width: 30px;
 }
-.firebase-logout-button:hover{
+.firebase-logout-button:hover {
   opacity: 0.6;
 }
-.firebase-logout-button:active{
+.firebase-logout-button:active {
   opacity: 0.8;
 }
 .exit-settings-container {
@@ -411,17 +411,91 @@ twenty break pop up starts here */
   border-radius: 8px;
 }
 
-.settings-input-btn{
+.settings-input-btn {
   height: 30px;
-  margin-left:10px;
+  margin-left: 10px;
   margin-top: 5px;
   width: 30px;
 }
 
-
-.settings-input-btn:hover{
+.settings-input-btn:hover {
   opacity: 0.6;
 }
-.settings-input-btn:active{
+.settings-input-btn:active {
+  opacity: 0.8;
+}
+
+.settings-container {
+  background: rgba(153, 181, 214, 0.384);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: blur(16px);
+}
+
+.settings-theme-title {
+  font-size: 4vmin;
+  margin-top: 4vmin;
+}
+.twenty-theme-img {
+  height: 277px;
+  width: 417px;
+  border-radius: 4px;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.158);
+}
+.surfup-theme-img {
+  height: 277px;
+  width: 417px;
+  border-radius: 4px;
+  margin: auto;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.158);
+}
+
+.active-hours-title {
+  font-size: 4vmin;
+  margin-top: 4vmin;
+  margin-bottom: 4vmin;
+}
+#wake-up {
+  font-size: 3vmin;
+  margin-top: 4vmin;
+  margin-bottom: 4vmin;
+}
+#sleep {
+  font-size: 3vmin;
+  margin-top: 4vmin;
+  margin-bottom: 4vmin;
+}
+
+#wake-up,
+#sleep {
+  outline: none;
+  border-width: 0px;
+  border-style: none;
+  background: rgba(204, 204, 204, 0.384);
+  backdrop-filter: blur(24px);
+  border-radius: 6px;
+  padding: 0.7vmin;
+}
+
+.wake-up-title,
+.sleep-title {
+  font-weight: 400;
+  font-size: 3vmin;
+  color: rgb(23, 22, 24);
+}
+.settings-close {
+  position: absolute;
+  top: 1vmin;
+  right: 1vmin;
+  height: 35px;
+  width: 35px;
+}
+.settings-close:hover {
+  opacity: 0.6;
+}
+
+.settings-close:active {
   opacity: 0.8;
 }
