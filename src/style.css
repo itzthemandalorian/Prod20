@@ -17,7 +17,7 @@
 }
 .actions {
   height: 100vh;
-  background: url(../assets/bg.jpg);
+  background: url(../assets/beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -389,9 +389,39 @@ twenty break pop up starts here */
 }
 
 .firebase-logout-button {
-  position: absolute;
-  bottom: 2vmin;
-  left: 2vmin;
   height: 30px;
+  left: 50px;
+  margin-top: 5px;
   width: 30px;
+}
+.firebase-logout-button:hover{
+  opacity: 0.6;
+}
+.firebase-logout-button:active{
+  opacity: 0.8;
+}
+.exit-settings-container {
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  right: 6px;
+  top: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  border-radius: 8px;
+}
+
+.settings-input-btn{
+  height: 30px;
+  margin-left:10px;
+  margin-top: 5px;
+  width: 30px;
+}
+
+
+.settings-input-btn:hover{
+  opacity: 0.6;
+}
+.settings-input-btn:active{
+  opacity: 0.8;
 }
