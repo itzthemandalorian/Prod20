@@ -7,6 +7,7 @@ pomodoro_start_btn.addEventListener("click", (e) => {
     console.log("please fill all the inputs before starting");
   } else {
     pomodoro_popup.style.display = "none";
+    pomodoro_start_btn.disabled = true;
     const session_time_in_seconds = session_time * 60;
     const break_time_in_seconds = break_time * 60;
 
@@ -14,6 +15,14 @@ pomodoro_start_btn.addEventListener("click", (e) => {
     let break_count = 0;
 
     let timer = setInterval(() => {
+      if (localStorage.getItem("pom_stop") == "true") {
+        localStorage.setItem("pom_stop", "false");
+        pomodoro_button.disabled = false;
+        clearInterval(timer);
+      } else {
+        console.log("#Surfup #MLH");
+      }
+
       if (session_count >= session_time_in_seconds) {
         const percentage = (break_count / break_time_in_seconds) * 100;
         pomodoro_progressbar.style.width = `${percentage}%`;

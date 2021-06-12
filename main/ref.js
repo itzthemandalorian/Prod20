@@ -29,3 +29,8 @@ const pomodoro_b_input = document.querySelector(".break-length");
 const pomodoro_start_btn = document.querySelector(".pomodoro-start-timer");
 const break_popup_pomodoro = document.querySelector(".break-popup-pomodoro");
 const pomodoro_progressbar = document.querySelector(".pomodoro-progressbar");
+
+const twe_stop = document.querySelector(".twe-stop");
+const sed_stop = document.querySelector(".sed-stop");
+const pom_stop = document.querySelector(".pom-stop");
+

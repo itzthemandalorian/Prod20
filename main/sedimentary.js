@@ -14,6 +14,15 @@ sedimentary_start_btn.addEventListener("click", (e) => {
   //disabling the button so it will prevent users from starting multiple sessions
   sedimentary_button.disabled = true;
   let timer = setInterval(() => {
+    //stoping the timer
+    if (localStorage.getItem("sed_stop") == "true") {
+      localStorage.setItem("sed_stop", "false");
+      sedimentary_button.disabled = false;
+      clearInterval(timer);
+    } else {
+      console.log("#Surfup #MLH");
+    }
+
     console.log("working");
     if (total_count >= total_seconds) {
       const percentage = (t_seconds_count / 300) * 100;

@@ -16,6 +16,15 @@ twenty_start_btn.addEventListener("click", (e) => {
     //disabling the button so it will prevent users from starting multiple sessions
     twenty_button.disabled = true;
     let timer = setInterval(() => {
+
+      if (localStorage.getItem("twe_stop") == "true") {
+        localStorage.setItem("twe_stop", "false");
+        twenty_button.disabled = false;
+        clearInterval(timer);
+      } else {
+        console.log("#Surfup #MLH");
+      }
+
       console.log("working");
       if (total_count >= total_seconds) {
         const percentage = (t_seconds_count / 20) * 100;
