@@ -15,5 +15,17 @@ const twenty_start_btn = document.querySelector(".twenty-start-btn");
 const break_popup_twenty = document.querySelector(".break-popup-twenty");
 const twenty_progressbar = document.querySelector(".twenty-progressbar");
 
-const sedimentary_input=document.querySelector('#sedimentary-input')
-const sedimentary_start_button=document.querySelector('.sedimentary-start-button')
+const sedimentary_input = document.querySelector("#sedimentary-input");
+const sedimentary_start_btn = document.querySelector(".sedimentary-start-btn");
+const break_popup_sedimentary = document.querySelector(
+  ".break-popup-sedimentary"
+);
+const sedimentary_progressbar = document.querySelector(
+  ".sedimentary-progressbar"
+);
+
+const pomodoro_s_input = document.querySelector(".session-length");
+const pomodoro_b_input = document.querySelector(".break-length");
+const pomodoro_start_btn = document.querySelector(".pomodoro-start-timer");
+const break_popup_pomodoro = document.querySelector(".break-popup-pomodoro");
+const pomodoro_progressbar = document.querySelector(".pomodoro-progressbar");
