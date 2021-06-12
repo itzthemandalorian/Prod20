@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The 20-20-20 rule</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <script defer src="../main/ref.js"></script>
+    <script defer src="../main/firebase.js"></script>
     <script defer src="../main/updateTime.js"></script>
     <script defer src="../main/popupOpenClose.js"></script>
     <script defer src="../main/twenty.js"></script>
@@ -22,7 +33,7 @@
         <!--  actions container(where users can select their actions) -->
         <div class="actions">
           <div class="time-container">04:20</div>
-          <div class="welcome-title">Hi Jhon Doe</div>
+          <div class="welcome-title">Hi Hamster</div>
           <div class="welcome-text">Welcome back, We missed You!</div>
 
           <!--  User Interaction -->
@@ -143,6 +154,17 @@
           <div class="pomodoro-progressbar-container">
             <div class="pomodoro-progressbar"></div>
           </div>
+        </div>
+        <!-- login page goes here -->
+        
+        <img
+          class="firebase-logout-button"
+          src="../assets/icons/logout_white_24dp.svg"
+          alt=""
+        />
+
+        <div class="login-page-ui">
+          <div id="firebaseui-auth-container"></div>
         </div>
       </div>
     </div>

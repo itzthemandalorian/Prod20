@@ -49,7 +49,6 @@
   display: flex;
   margin-top: 8vmin;
   justify-content: center;
-  
 }
 .twenty-btn {
   outline: none;
@@ -90,15 +89,15 @@
   backdrop-filter: blur(14px);
   color: #e8e8e9ef;
 }
-.stop-btn-style{
+.stop-btn-style {
   margin-top: 15px;
   height: 35px;
   width: 35px;
 }
-.stop-btn-style:hover{
+.stop-btn-style:hover {
   opacity: 0.8;
 }
-.stop-btn-style:active{
+.stop-btn-style:active {
   opacity: 0.6;
 }
 .pomodoro-btn:hover,
@@ -294,7 +293,7 @@
 /* 
 twenty break pop up starts here */
 
-.break-popup-twenty{
+.break-popup-twenty {
   display: none;
   position: absolute;
   height: 100vh;
@@ -304,13 +303,13 @@ twenty break pop up starts here */
   text-align: center;
 }
 
-.btextstyle{
+.btextstyle {
   font-size: 45px;
   font-weight: 500;
   margin-top: 40vmin;
 }
 
-.twenty-progressbar-container{
+.twenty-progressbar-container {
   width: 80vmin;
   height: 2vmin;
   background-color: rgba(248, 248, 248, 0.11);
@@ -318,17 +317,16 @@ twenty break pop up starts here */
   margin-right: auto;
   margin-top: 4vmin;
   border-radius: 6px;
-  
 }
 
-.twenty-progressbar{
+.twenty-progressbar {
   height: 100%;
   width: 12%;
   border-radius: 6px;
   background-color: white;
 }
 
-.break-popup-sedimentary{
+.break-popup-sedimentary {
   display: none;
   position: absolute;
   height: 100vh;
@@ -338,7 +336,7 @@ twenty break pop up starts here */
   text-align: center;
 }
 
-.sedimentary-progressbar-container{
+.sedimentary-progressbar-container {
   width: 80vmin;
   height: 2vmin;
   background-color: rgba(248, 248, 248, 0.11);
@@ -346,18 +344,16 @@ twenty break pop up starts here */
   margin-right: auto;
   margin-top: 4vmin;
   border-radius: 6px;
-  
 }
 
-.sedimentary-progressbar{
+.sedimentary-progressbar {
   height: 100%;
   width: 12%;
   border-radius: 6px;
   background-color: white;
 }
 
-
-.break-popup-pomodoro{
+.break-popup-pomodoro {
   display: none;
   position: absolute;
   height: 100vh;
@@ -367,7 +363,7 @@ twenty break pop up starts here */
   text-align: center;
 }
 
-.pomodoro-progressbar-container{
+.pomodoro-progressbar-container {
   width: 80vmin;
   height: 2vmin;
   background-color: rgba(248, 248, 248, 0.11);
@@ -375,12 +371,27 @@ twenty break pop up starts here */
   margin-right: auto;
   margin-top: 4vmin;
   border-radius: 6px;
-  
 }
 
-.pomodoro-progressbar{
+.pomodoro-progressbar {
   height: 100%;
   width: 12%;
   border-radius: 6px;
   background-color: white;
+}
+
+.login-page-ui {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  padding-top: 40vmin;
+}
+
+.firebase-logout-button {
+  position: absolute;
+  bottom: 2vmin;
+  left: 2vmin;
+  height: 30px;
+  width: 30px;
 }

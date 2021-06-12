@@ -34,3 +34,8 @@ const twe_stop = document.querySelector(".twe-stop");
 const sed_stop = document.querySelector(".sed-stop");
 const pom_stop = document.querySelector(".pom-stop");
 
+const flogin = document.querySelector(".login-page-ui");
+
+const usernametag = document.querySelector(".welcome-title");
+
+const firebase_logout_btn = document.querySelector(".firebase-logout-button");
