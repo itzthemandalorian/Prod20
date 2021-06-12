@@ -13,6 +13,7 @@
 }
 .main {
   display: flex;
+  text-align: center;
 }
 .actions {
   height: 100vh;
@@ -46,8 +47,9 @@
 }
 .actions-buttons-container {
   display: flex;
+  margin-top: 8vmin;
   justify-content: center;
-  margin-top: 12vmin;
+  
 }
 .twenty-btn {
   outline: none;
@@ -88,7 +90,17 @@
   backdrop-filter: blur(14px);
   color: #e8e8e9ef;
 }
-
+.stop-btn-style{
+  margin-top: 15px;
+  height: 35px;
+  width: 35px;
+}
+.stop-btn-style:hover{
+  opacity: 0.8;
+}
+.stop-btn-style:active{
+  opacity: 0.6;
+}
 .pomodoro-btn:hover,
 .sedimentary-btn:hover,
 .twenty-btn:hover {
