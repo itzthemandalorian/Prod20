@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The 20-20-20 rule</title>
     <link rel="stylesheet" href="style.css" />
-    <script defer src="main.js"></script>
+    <script defer src="../main/ref.js"></script>
+    <script defer src="../main/updateTime.js"></script>
+    <script defer src="../main/popupOpenClose.js"></script>
+    <script defer src="../main/twenty.js"></script>
+    <script defer src="../main/render.js"></script>
   </head>
 
   <body>
@@ -25,7 +29,7 @@
             </div>
             <div class="sedimentary">
               <div>
-                <button class="sedimentary-btn btn">Sedimentaarry</button>
+                <button class="sedimentary-btn btn">Sedimentary</button>
               </div>
             </div>
             <div class="pomodoro">
@@ -92,6 +96,28 @@
             />
           </div>
         </div>
+
+
+       <!--  message popups -->
+
+        <!-- twenty break popup -->
+        <div class="break-popup-twenty">
+            <div class="btextstyle">Focus on an object 20 feet away.</div>
+            <div class="twenty-progressbar-container">
+              <div class="twenty-progressbar"></div>
+            </div>
+        </div>
+
+       <!--  sedimentary break popup -->
+       <div class="break-popup-sedimentary">
+        <div class="btextstyle">Feel Free to Stretch.</div>
+        <div class="sedimentary-progressbar-container">
+          <div class="sedimentary-progressbar"></div>
+        </div>
+       </div>
+
+
+
       </div>
     </div>
   </body>
