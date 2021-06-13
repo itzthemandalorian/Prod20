@@ -19,7 +19,7 @@ We have used **Google Firebase authentication** to login for the user .You can a
 Here is the link where You can try the [App](https://github.com/itzthemandalorian/Prod20/releases/tag/1)
 
 
-## What does Prod20 do?
+## What does Prod20 do? 
 The app contains 3 different Timers which helps us to insinuate a little breaks throughout their work hours. This app has 3 different features:-
 ###Twenty Rule Timer:
 Set a **timer** to remind you to look away every **20 minutes** at an object that is about **20 feet ** away for a full **20 seconds**. It helps you reduce your **eye strain** and prevent **eye dryness**.
