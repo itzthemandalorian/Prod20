@@ -1,6 +1,5 @@
-
-#Prod 20
-##Inspiration for Prod20
+# Prod 20
+## Inspiration for Prod20
 We all have been affected by the current COVID-19
 pandemic. Due to this unfortunate situation , students have shifted to online
 classes and adults have shifted online workspace Digital innovation is
@@ -11,11 +10,11 @@ outdoors, might further accelerate the myopia epidemic.
 
 This lead to Making of 20/20/20 rule which inspires a person to look  away every 20 minutes at an object that is about 20 feet away for a full 20 seconds. This lead to the making of **Prod20**
 
-##Why is there a need for Prod20
+## Why is there a need for Prod20
 - We all have been affected by the current **COVID-19 pandemic**. However, the impact of the pandemic and its consequences are felt differently depending on our status as individuals and as members of society. While some try to adapt to working online, homeschooling their children and ordering food via Instacart , others have no choice but to be exposed to the virus while keeping society functioning
 - Due to this unfortunate situation , students have shifted to online classes and adults have shifted online workspace Digital innovation is expected to have many positive outcomes in the future of education. However, there is concern among ophthalmologists that increased screen time, together with a significant reduction of the time spent outdoors, might further accelerate the myopia epidemic
 
-##How the Prod20 works
+## How the Prod20 works
 We have used **Google Firebase authentication** to login for the user .You can also use the guest option or login with email. We have 2 different themes for our app. You can check out more info about Prod20 [ Video here](https://youtu.be/8HfY5TYKw2Y) and [PowerPoint](https://docs.google.com/presentation/d/1LZ0MAcJNytc4eWSwt-EQzGMKtBO2AGPo0vcqqsrZnTc/edit?usp=sharing)
 Here is the link where You can try the [App](https://github.com/itzthemandalorian/Prod20/releases/tag/1)
 
