@@ -48,10 +48,12 @@ We ran into many bugs that we were ultimately able to solve. For eg we ran into 
 We learned how to organize ourselves and manage time which is a really important part of the **Surfs Up Hacks** we feel.
 
 ## What's next for Prod20
-We will Upgrade the UI for the Prod20 and also create an Android version for the app . We will also be making a website for the app 
+We will Upgrade the UI for the Prod20 and also create an Android version for the app . We will also be making a website for the app.
 ####Upcoming Features:-
 - App Usage Tracking
 - Active window Tracking 
 - App Blocker
 - Website Blocker
 - Day Planner
+
+  
