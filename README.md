@@ -54,5 +54,4 @@ We will Upgrade the UI for the Prod20 and also create an Android version for the
 - Active window Tracking 
 - App Blocker
 - Website Blocker
-- 
 - Day Planner
