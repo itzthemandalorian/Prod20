@@ -22,7 +22,7 @@ Here is the link where You can try the [App](https://github.com/itzthemandaloria
 ## What does Prod20 do? 
 The app contains 3 different Timers which helps us to insinuate a little breaks throughout their work hours. This app has 3 different features:-
 ### Twenty Rule Timer:
-Set a **timer** to remind you to look away every **20 minutes** at an object that is about **20 feet ** away for a full **20 seconds**. It helps you reduce your **eye strain** and prevent **eye dryness**.
+Set a **timer** to remind you to look away every **20 minutes** at an object that is about **20 feet** away for a full **20 seconds**. It helps you reduce your **eye strain** and prevent **eye dryness**.
 ### Sedimentary Timer
 **Sedimentary Timer** which reminds a person to **stand up** and **walk** around during long hours. It helps a person maintain their **health** and reduce the chance of having **back pain**.
 ### Pomodoro Timer
@@ -31,10 +31,10 @@ Set a **timer** to remind you to look away every **20 minutes** at an object tha
 - It is a Simple App that helps people Reduce their **screen time**. 
 - This app also help us make sure we maintain **productivity** throughout the day.
 - It helps to prevent **eye dryness** ,**eye irritation headache** , **neck**, **back pain** etc.
-- Research has also found that short breaks throughout the day can result in being more alert. It’s no surprise to find that working long hours can lead to **fatigue**. We suggest regular breaks to improve your **productivity** and **quality of work**, **attention levels**,** awareness** and how fast you work. Your body will give you the following signals suggesting it's time to have a short break: finding it **difficult to concentrate**,** feeling tired**,* being hungry** and** feeling restless**.
+- Research has also found that short breaks throughout the day can result in being more alert. It’s no surprise to find that working long hours can lead to **fatigue**. We suggest regular breaks to improve your **productivity** and **quality of work**, **attention levels**,** awareness** and how fast you work. Your body will give you the following signals suggesting it's time to have a short break: finding it **difficult to concentrate**,**feeling tired**,**being hungry** and**feeling restless**.
 - **The success of this formula** comes from the fact that if you are working, you will be dedicated to the accomplishment of tasks, getting things done and making progress, whilst during your breaks, you’ll be completely removed from the work you’re doing. The ability of being able to **deactivate** and then **reactivate** allows you to stay focused.
 - **Guidance from the Health and Safety Executive for Northern Ireland (HSENI)** suggests that it's better to take shorter breaks more often at your workstation than longer breaks and less often. Research has also found that the most productive people work for **52 minutes** and then take breaks for up to **17 minutes**
--In conclusion, it is heavily recommended to take **regular breaks** if you are working at your computer to increase your attention, productivity and quality of your work. Furthermore, without regular breaks, you are likely to suffer from** tension across your back, neck, shoulders and arms**.
+-In conclusion, it is heavily recommended to take **regular breaks** if you are working at your computer to increase your attention, productivity and quality of your work. Furthermore, without regular breaks, you are likely to suffer from**tension across your back, neck, shoulders and arms**.
 
 
 
