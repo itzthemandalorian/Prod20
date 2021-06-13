@@ -21,13 +21,13 @@ Here is the link where You can try the [App](https://github.com/itzthemandaloria
 
 ## What does Prod20 do? 
 The app contains 3 different Timers which helps us to insinuate a little breaks throughout their work hours. This app has 3 different features:-
-###Twenty Rule Timer:
+### Twenty Rule Timer:
 Set a **timer** to remind you to look away every **20 minutes** at an object that is about **20 feet ** away for a full **20 seconds**. It helps you reduce your **eye strain** and prevent **eye dryness**.
-###Sedimentary Timer
+### Sedimentary Timer
 **Sedimentary Timer** which reminds a person to **stand up** and **walk** around during long hours. It helps a person maintain their **health** and reduce the chance of having **back pain**.
-###Pomodoro Timer
+### Pomodoro Timer
 **The Pomodoro Technique** is a productivity system that stops you from procrastinating or getting distracted, so you can focus on getting stuff done. It helps you maintain **productivity** and **reduce stress** during long work hours
-###Benefits of Taking short breaks?
+### Benefits of Taking short breaks?
 - It is a Simple App that helps people Reduce their **screen time**. 
 - This app also help us make sure we maintain **productivity** throughout the day.
 - It helps to prevent **eye dryness** ,**eye irritation headache** , **neck**, **back pain** etc.
@@ -49,7 +49,7 @@ We learned how to organize ourselves and manage time which is a really important
 
 ## What's next for Prod20
 We will Upgrade the UI for the Prod20 and also create an Android version for the app . We will also be making a website for the app 
-####Upcoming Features:-
+#### Upcoming Features:-
 - App Usage Tracking
 - Active window Tracking 
 - App Blocker
