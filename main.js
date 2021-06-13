@@ -7,12 +7,12 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    webPreferences: {
+    /*   webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
-    },
+    }, */
   });
-
+  mainWindow.setMenuBarVisibility(false);
   // and load the index.html of the app.
   mainWindow.loadFile("./src/index.html");
 

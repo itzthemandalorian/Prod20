@@ -11,6 +11,15 @@ settings_close_btn.addEventListener("click", (e) => {
   }
 });
 
+
+if (!localStorage.getItem("wake_up")) {
+  localStorage.setItem("wake_up", 4);
+}
+
+if (!localStorage.getItem("sleep_time")) {
+  localStorage.setItem("sleep_time", 22);
+}
+
 /* setInterval(() => {
   {
     const date = new Date();

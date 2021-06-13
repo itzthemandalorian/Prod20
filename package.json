@@ -4,6 +4,8 @@
   "description": "WIP",
   "main": "main.js",
   "scripts": {
+    "pack": "electron-builder --x64",
+    "dist": "electron-builder",
     "start": "electron ."
   },
   "repository": {
@@ -17,6 +19,19 @@
   },
   "homepage": "https://github.com/itzthemandalorian/20-20-20#readme",
   "devDependencies": {
-    "electron": "^13.1.2"
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7"
+  },
+  "build": {
+    "productName": "Prod20",
+    "appId": "org.z14O.prod20",
+    "win": {
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "guid": "0479dcd9-8303-4f69-ad8e-0145ad7e2c46",
+      "createStartMenuShortcut": true,
+      "perMachine": true
+    }
   }
 }
