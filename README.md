@@ -1,5 +1,5 @@
-#Prod 20
-##Inspiration for Prod20
+# Prod 20
+## Inspiration for Prod20
 We all have been affected by the current COVID-19
 pandemic. Due to this unfortunate situation , students have shifted to online
 classes and adults have shifted online workspace Digital innovation is
@@ -10,24 +10,24 @@ outdoors, might further accelerate the myopia epidemic.
 
 This lead to Making of 20/20/20 rule which inspires a person to look  away every 20 minutes at an object that is about 20 feet away for a full 20 seconds. This lead to the making of **Prod20**
 
-##Why is there a need for Prod20
+## Why is there a need for Prod20
 - We all have been affected by the current **COVID-19 pandemic**. However, the impact of the pandemic and its consequences are felt differently depending on our status as individuals and as members of society. While some try to adapt to working online, homeschooling their children and ordering food via Instacart , others have no choice but to be exposed to the virus while keeping society functioning
 - Due to this unfortunate situation , students have shifted to online classes and adults have shifted online workspace Digital innovation is expected to have many positive outcomes in the future of education. However, there is concern among ophthalmologists that increased screen time, together with a significant reduction of the time spent outdoors, might further accelerate the myopia epidemic
 
-##How the Prod20 works
+## How the Prod20 works
 We have used **Google Firebase authentication** to login for the user .You can also use the guest option or login with email. We have 2 different themes for our app. You can check out more info about Prod20 [ Video here](https://youtu.be/8HfY5TYKw2Y) and [PowerPoint](https://docs.google.com/presentation/d/1LZ0MAcJNytc4eWSwt-EQzGMKtBO2AGPo0vcqqsrZnTc/edit?usp=sharing)
 Here is the link where You can try the [App](https://github.com/itzthemandalorian/Prod20/releases/tag/1)
 
 
 ## What does Prod20 do? 
 The app contains 3 different Timers which helps us to insinuate a little breaks throughout their work hours. This app has 3 different features:-
-###Twenty Rule Timer:
+### Twenty Rule Timer:
 Set a **timer** to remind you to look away every **20 minutes** at an object that is about **20 feet ** away for a full **20 seconds**. It helps you reduce your **eye strain** and prevent **eye dryness**.
-###Sedimentary Timer
+### Sedimentary Timer
 **Sedimentary Timer** which reminds a person to **stand up** and **walk** around during long hours. It helps a person maintain their **health** and reduce the chance of having **back pain**.
-###Pomodoro Timer
+### Pomodoro Timer
 **The Pomodoro Technique** is a productivity system that stops you from procrastinating or getting distracted, so you can focus on getting stuff done. It helps you maintain **productivity** and **reduce stress** during long work hours
-###Benefits of Taking short breaks?
+### Benefits of Taking short breaks?
 - It is a Simple App that helps people Reduce their **screen time**. 
 - This app also help us make sure we maintain **productivity** throughout the day.
 - It helps to prevent **eye dryness** ,**eye irritation headache** , **neck**, **back pain** etc.
@@ -48,8 +48,10 @@ We ran into many bugs that we were ultimately able to solve. For eg we ran into 
 We learned how to organize ourselves and manage time which is a really important part of the **Surfs Up Hacks** we feel.
 
 ## What's next for Prod20
-We will Upgrade the UI for the Prod20 and also create an Android version for the app . We will also be making a website for the app.
-####Upcoming Features:-
+
+We will Upgrade the UI for the Prod20 and also create an Android version for the app . We will also be making a website for the app 
+#### Upcoming Features:-
+
 - App Usage Tracking
 - Active window Tracking 
 - App Blocker
